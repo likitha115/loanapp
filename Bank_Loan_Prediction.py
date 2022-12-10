@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pickle
-model = pickle.load(open('C:/Users/likit/OneDrive/Documents/loan/ML_Model1.pkl','rb'))
+model = pickle.load(ML_Model1.pkl,'rb')
 
 def run():
     img1 = Image.open('bank.png')
