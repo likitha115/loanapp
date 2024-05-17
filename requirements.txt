@@ -7,3 +7,5 @@ Pillow
 seaborn
 plotly
 shap
+java 8.0
+spring
